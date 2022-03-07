@@ -130,7 +130,8 @@ var endGame = function() {
   }
 };
 
-// go to shop between battles function
+// SHOP FUNCTION
+
 var shop = function() {
   // ask player what they'd like to do
   var shopOptionPrompt = window.prompt(
@@ -138,6 +139,7 @@ var shop = function() {
   );
 
   // use switch case to carry out action
+
   switch (shopOptionPrompt) {
     case 'REFILL':
     case 'refill':
@@ -181,4 +183,4 @@ var shop = function() {
 };
 
 // start first game when page loads
-//startGame();
+startGame();
